@@ -11,10 +11,6 @@ function change(){
   if(selected == 1){
     document.querySelectorAll(".sharingan")?.forEach(el => el.style.zIndex = "2")
     document.querySelectorAll(".ms")?.forEach(el => el.style.zIndex = "1")
-    
-    // document.querySelectorAll(".sharingan")?.forEach(el => {
-    //   el.classList.add('rotation')
-    // })
   }
   if(selected == 2){
     document.querySelectorAll(".sharingan")?.forEach(el => el.style.zIndex = "1")
