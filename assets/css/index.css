@@ -3,8 +3,8 @@
   padding: 0;
   box-sizing: border-box;
   font-size: 24px;
-  font-family: monospace;
-  font-weight: 500;
+  font-family: Oswald;
+  font-weight: 400;
   color: #000000;
 }
 
@@ -15,11 +15,48 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  background: radial-gradient(ellipse at center,#0a2e38  0%, #000000 70%);
 }
 
 .container {
-  max-width: 800px;
+  max-width: 900px;
   width: 100%;
+  border-radius: 25px;
+  background-color: rgba(255,255,255,0.13);
+  padding: 50px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.radio {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.radio_btn_text{
+  padding: 0 10px 0 10px;
+}
+
+#btn {
+  margin-bottom: 25px;
+  padding:10px 20px;
+  font-size:15px;
+  background: #000000;
+  color: #FFF;
+  letter-spacing: 3px;
+  border:none;
+  border-radius:20px;
+  cursor:pointer;
+}
+
+#btn:hover {
+  background :#FFF;
+  color:#000000;
 }
 
 .content {
@@ -318,10 +355,6 @@
   transform: rotate(143deg);
   border-radius: 89% 77% 0 68%;
   background-color: #000000;
-}
-
-.blink {
-  animation: blink 5s forwards;
 }
 
 .tomoi_rotation {
