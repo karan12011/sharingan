@@ -38,8 +38,9 @@
   margin-bottom: 20px;
 }
 
-.radio_btn_text{
+label {
   padding: 0 10px 0 10px;
+  cursor: pointer;
 }
 
 #btn {
@@ -160,7 +161,6 @@
   border: 5px solid black;
   display: grid;
   place-items: center;
-  /* animation: tomoi_rotation 3s 1 1s; */
 }
 
 .sharingan_rotation {
